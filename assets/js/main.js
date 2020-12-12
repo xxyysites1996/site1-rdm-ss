@@ -123,7 +123,14 @@
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
   }
-
+    //Whatsapp
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.whatsapp_btn').fadeIn('slow');
+    } else {
+      $('.whatsapp_btn').fadeOut('slow');
+    }
+  });
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
