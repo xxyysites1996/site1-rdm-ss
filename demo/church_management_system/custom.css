@@ -1,0 +1,150 @@
+/*---------------------------------------Theme Color----------------------------------------------*/
+body{
+	background-color: #f5f5f5;
+}
+.theme-color{
+	background-color: #005a85;
+}
+.btn-theme{
+	background-color: #005a85;
+	color: white;
+}
+.btn-theme:hover{
+	background-color: #004261;
+	color: white;
+}
+/*Card header*/
+.card-header,.modal-header{
+	background-color: #005a85;
+	color: white;
+}
+/*Logo color*/
+#logo{
+	text-decoration: none;
+	color: #004261;
+}
+/*Nav bar color*/
+.bg-dark{
+	background-color: #003552 !important;
+}
+label{
+	font-weight: bold;
+}
+/*----------------------------------End theme color--------------------------------------------------*/
+/*----------------------------------Floating Button--------------------------------------------------*/
+*{padding:0;margin:0;}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:15px;
+	right:15px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+.float:hover{
+	background-color: black;
+	color: white;
+}
+/*----------------------------------End Floating Button----------------------------------------------*/
+.logo{
+	padding: 10px 10px 10px 40px;
+	background-color: white;
+}
+.nav-link{
+	padding: 0px;
+}
+
+.account{
+	padding: 10px;
+}
+.navbar-text{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px 25px 0px 0px;
+}
+.navbar-dark .navbar-text a{
+	color: black;
+}
+.myformlabel{
+	border:0px;
+}
+
+/*-------------------------------------------------------Box Modal----------------------------------*/
+.card,input, button, .btn{
+	border-radius: 0px !important;
+}
+.input-group-text{
+	border-radius: 0px !important;
+}
+.user_image{
+	border-radius: 50%;
+	position: relative;
+	width: 35px;
+	padding-bottom : 35px; /* = width for a 1:1 aspect ratio */
+	margin:1.66%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.up_img{
+	border-radius: 50%;
+	position: relative;
+	width: 100%;
+	padding-bottom : 100%; /* = width for a 1:1 aspect ratio */
+	margin:1.66%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.vertical-center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.login-header-color{
+	color: white;
+}
+.center {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+}
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:150px;
+}
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.link{
+	text-decoration: none;
+	color: white;
+}
+.link:hover{
+	text-decoration: none;
+	color: white;
+}
+.gray{
+	color: #666666;
+}
+#all_pations{
+	background-color: #005a85;
+	color: white;
+}

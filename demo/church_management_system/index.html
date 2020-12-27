@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Church Management System - Login</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="custom.css">
+	<style type="text/css">
+		html,body{
+			height: 100%;
+			background-color: #fafafa;	
+			overflow: hidden;
+		}
+		.h{
+			height: 100%;
+		}
+		.width-100{
+			width: 100%;
+		}
+		.left-40{
+			left: 40%;
+		}
+	</style>
+</head>
+<body>
+	<div class="width-100 d-none d-sm-block d-md-none d-block d-sm-block ">
+		<center>
+			<div class="theme-color " style="padding: 30px;">
+				<img src="favicon.png" width="50">
+				<p class="login-header-color">CHURCH MANAGEMENT SYSTEM</p>
+			</div>
+		</center>
+		
+		<form method="POST">
+			<div class="account">
+				<h2 class="gray">Login</h2><br>
+				<p class="gray">Sign In to your account</p>
+				<div class="input-group mb-2 input-group-sm">
+					<div class="input-group-prepend">
+						<div class="input-group-text"><i class="fas fa-user"></i></div>
+					</div>
+					<input type="text" class="form-control" required id="inlineFormInputGroup" name="username" placeholder="Username">
+				</div>
+				<div class="input-group mb-2 input-group-sm">
+					<div class="input-group-prepend">
+						<div class="input-group-text"><i class="fas fa-lock"></i></div>
+					</div>
+					<input type="password" required class="form-control form-control-sm" name="password" id="inlineFormInputGroup" placeholder="Password">
+				</div>
+				<a class="float-right" href="">Fogot Password?</a>
+				<button type="submit" name="login" class="btn btn-theme form-control btn-sm">Login</button>
+			</div>
+		</form>
+	</div>
+
+	<div class="row h col-md-12">
+		<div class="col-md-9 d-none d-sm-none d-md-block d-lg-block d-xl-block theme-color pagination-centered">
+			<div class="vertical-center width-100">
+				<img src="favicon.png" class="img-center">
+				<h1 class="login-header-color text-center">CHURCH MANAGEMENT SYSTEM</h1>	
+				<h6 class="login-header-color text-center">DEVELOPED BY <a class="link" target="_blank" href="https://rdmsoftwaresolutions.com">RDMSOFTWARESOLUTIONS.COM</a></h6>
+				<p class="login-header-color text-center"><small>{BUILD VERSION: 2.1}</small></p>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="vertical-center width-100 d-none d-sm-none d-md-block d-lg-block d-xl-block">
+				<h2 class="gray">Login</h2><br>
+				<form method="POST">
+					<p class="gray">Sign In to your account</p>
+					<div class="input-group mb-2 input-group-sm">
+						<div class="input-group-prepend">
+							<div class="input-group-text"><i class="fas fa-user"></i></div>
+						</div>
+						<input type="text" required class="form-control" id="inlineFormInputGroup" name="username" placeholder="Username">
+					</div>
+					<div class="input-group mb-2 input-group-sm">
+						<div class="input-group-prepend">
+							<div class="input-group-text"><i class="fas fa-lock"></i></div>
+						</div>
+						<input type="password" required class="form-control form-control-sm" name="password" id="inlineFormInputGroup" placeholder="Password">
+					</div>
+					<a class="float-right" href="">Fogot Password?</a>
+					<button type="submit" name="login" class="btn btn-theme form-control btn-sm">Login</button>
+				</form>
+			</div>
+		</div>
+	</div>
+<a href="mailto:info@rdmsoftwaresolutions.com" class="float theme-color" title="Contact Developer" >
+<i class="fas fa-envelope my-float"></i>
+</a>
+	
+</body>
+</html>
