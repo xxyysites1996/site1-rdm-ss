@@ -1,8 +1,6 @@
 /**
-* Template Name: Resi - v2.1.0
-* Template URL: https://bootstrapmade.com/resi-free-bootstrap-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Template Name: RDM Software Solutions 2.0
+* Author: RDM Rajapakshe
 */
 
 /*--------------------------------------------------------------
@@ -972,6 +970,7 @@ section {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  width: 100%
 }
 
 .team .member .member-img {
