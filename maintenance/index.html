@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Down for maintenance...</title>
+	<style>
+		body { 
+			background-color: #350061; 
+			text-align: center; 
+			padding-top: 150px;
+		}
+		h1 { 
+			font-size: 50px; }
+			body { 
+				font: 20px Helvetica, sans-serif; color: #fff; 
+			}
+		</style>
+	</head>
+	<body>
+		<img id="img360" src="icon.gif" width="100">
+		<h1>Sorry we're down for maintenance.</h1>
+		<h2>We'll be back shortly.</h2>
+		<br>
+		<div class="timer" onload="timer(1800)">
+			<small>Redirecting to our main website</small>
+			<div class="time">
+				<small id="time">Loading...</small>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var time = 10;
+			setInterval(function() {
+				var seconds = time % 60;
+				var minutes = (time - seconds) / 60;
+				if (seconds.toString().length == 1) {
+					seconds = "0" + seconds;
+				}
+				if (minutes.toString().length == 1) {
+					minutes = "0" + minutes;
+				}
+				document.getElementById("time").innerHTML = minutes + ":" + seconds;
+				time--;
+				if (time <= 0) {
+					window.location.href = "https://rdmsoftwaresolutions.com";
+				}
+			}, 1000);
+		</script>
+	</body>
+	</html>
